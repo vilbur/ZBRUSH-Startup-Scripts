@@ -1,0 +1,18 @@
+/** resizeButtons
+  *
+  */
+[RoutineDef, resizeButtons
+,
+	[VarSet, $height, 48]
+
+	[IModify, "Tool:Masking:Create Alpha", 96, 0]
+
+	[IModify, "Zscript:Load",	0, 48]
+	[IModify, "Zscript:Reload",	0, 48]
+	
+	[IModify, "Tool:Load Tool",	0, 48]
+	[IModify, "Tool:Save As",	0, 48]
+	[IModify, "Tool:Make PolyMesh3D",	96, 48]
+
+]
+//[IButton, "resizeSliders()" , "", [RoutineCall, resizeSliders] ]

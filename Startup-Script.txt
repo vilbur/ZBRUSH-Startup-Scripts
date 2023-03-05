@@ -3,8 +3,10 @@
 <zscriptinsert, "Startup-Scripts/Restart-Zbrush/Restart-Zbrush.txt">	// "./Restart-Zbrush/Restart-Zbrush.txt"
 <zscriptinsert, "Startup-Scripts/Resize-Controls/resizeAlphaButtons.txt">	// "./Resize-Controls/resizeAlphaButtons.txt"
 <zscriptinsert, "Startup-Scripts/Resize-Controls/resizeSliders.txt">	// "./Resize-Controls/resizeSliders.txt"
+<zscriptinsert, "Startup-Scripts/Resize-Controls/resizeButtons.txt">	// "./Resize-Controls/resizeSliders.txt"
 
 
 
 [RoutineCall, resizeAlphaButtons]
 [RoutineCall, resizeSliders]
+[RoutineCall, resizeButtons]

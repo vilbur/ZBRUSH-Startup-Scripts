@@ -8,8 +8,8 @@
 	[IModify, "Draw:Draw Size",	0, [Var, $height]]
 	[IModify, "Draw:  Z Intensity",	0, [Var, $height]]
 	[IModify, "Draw:Focal Shift", 	0, [Var, $height]]
-	[IModify, "Draw:AdjustLast", 	0, [Var, $height]]
 	[IModify, "Draw:Rgb Intensity",	0, [Var, $height]]
+	[IModify, "Stroke:AdjustLast", 	0, [Var, $height]]
 	
 ]
 //[IButton, "resizeSliders()" , "", [RoutineCall, resizeSliders] ]

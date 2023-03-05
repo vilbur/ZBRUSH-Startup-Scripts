@@ -11,6 +11,7 @@
 		, // ELSE
 			[VarSet, $alpha_id, [StrMerge, " ", $i] ]
 		]
+		
 		[IModify, [StrMerge, "Alpha:Alpha", $alpha_id], 86, 0 ]
 
 	,$i]
