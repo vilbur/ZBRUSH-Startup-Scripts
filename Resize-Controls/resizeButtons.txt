@@ -7,16 +7,17 @@
 
 	[IModify, "Tool:Masking:Create Alpha", 96, 0]
 
-	[IModify, "Zscript:Load",	64, 48]
-	[IModify, "Zscript:Reload",	64, 48]
-	[IModify, "Zscript:Record",	64, 48]
-	[IModify, "Zscript:End Rec",	64, 48]
-	[IModify, "Zscript:Next",	64, 48]
-	[IModify, "Zscript:Previous",	64, 48]
+	[IModify, "Zscript:Load",	64, [Var, $height]]
+	[IModify, "Zscript:Reload",	64, [Var, $height]]
+	[IModify, "Zscript:Record",	64, [Var, $height]]
+	[IModify, "Zscript:End Rec",	64, [Var, $height]]
+	[IModify, "Zscript:Next",	64, [Var, $height]]
+	[IModify, "Zscript:Previous",	64, [Var, $height]]
 	
-	[IModify, "Tool:Load Tool",	0, 48]
-	[IModify, "Tool:Save As",	0, 48]
-	[IModify, "Tool:Make PolyMesh3D",	96, 48]
+	[IModify, "Tool:Load Tool",	0,	[Var, $height]]
+	[IModify, "Tool:Save As",	0,	[Var, $height]]
+	[IModify, "Tool:Make PolyMesh3D",	96,	[Var, $height]]
+	[IModify, "Tool:Geometry:Divide", 	64,	[Var, $height]]
 
 ]
 //[IButton, "resizeSliders()" , "", [RoutineCall, resizeSliders] ]
