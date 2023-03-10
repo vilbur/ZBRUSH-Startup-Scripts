@@ -1,0 +1,17 @@
+/** resizeBrushButtons
+  *
+  */
+[RoutineDef, resizeBrushButtons
+,
+	[VarSet, $width, 56]
+
+	[IModify,Brush:Standard,	[Var, $width], 0]
+	[IModify,Brush:Clay,	[Var, $width], 0]
+	[IModify,Brush:Move,	[Var, $width], 0]
+	[IModify,Brush:Flatten,	[Var, $width], 0]
+	[IModify,Brush:Pinch,	[Var, $width], 0]
+	[IModify,Brush:Magnify,	[Var, $width], 0]
+	[IModify,Brush:Planar,	[Var, $width], 0]
+
+]
+//[IButton, "resizeBrushButtons()" , "", [RoutineCall, resizeBrushButtons] ]
